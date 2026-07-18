@@ -2,28 +2,38 @@
     <head>
         <title>Dashboard</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <div id="headingbar">
         </div>
-        
+
         <div id="sidebar">
-            <div class = "sidebar_element">Home</div>
-            <div class = "sidebar_element">Profile</div>
-            <div class = "sidebar_element">Messages</div>
-            <div class = "sidebar_element">History</div>
-            <div class = "sidebar_element">Tasks</div>
-            <div class = "sidebar_element">Communities</div>
-            <div class = "sidebar_element">Settings</div>
-            <div class = "sidebar_element">Support</div>
-            <div class = "sidebar_element">Privacy</div>
+            <div id = "dashboard_title">Dashboard</div>
+            <div class = "section">
+                <div class = "sidebar_element">Home</div>
+                <div class = "sidebar_element">Profile</div>
+                <div class = "sidebar_element">Messages</div>
+                <div class = "sidebar_element">History</div>
+                <div class = "sidebar_element">Tasks</div>
+                <div class = "sidebar_element">Communities</div>
+            </div>
+
+            <div class="section">
+                <div class = "sidebar_element">Settings</div>
+                <div class = "sidebar_element">Support</div>
+                <div class = "sidebar_element">Privacy</div>
+            </div>
         </div>
 
         
 
         <div id = "maindash">
             <div id = "projects">
+                <p>Your Projects</p>
                 <div class = "card"></div>
                 <div class = "card"></div>
                 <div class = "card"></div>
@@ -33,12 +43,14 @@
             </div>
 
             <div id="announcements">
+                <p>Announcements</p>
                 <div class="announce"></div>
                 <div class="announce"></div>
                 <div class="announce"></div>
             </div>
 
             <div id="trending">
+                <p>Trending</p>
                 <div class="trending_element"></div>
                 <div class="trending_element"></div>
                 <div class="trending_element"></div>
