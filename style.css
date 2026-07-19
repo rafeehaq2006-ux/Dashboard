@@ -46,11 +46,11 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    background-color: azure;
+    background-color: white;
     border-radius: 10px;
     border-left: 20px solid orange;
-    align-content: center;
-    justify-content: center;
+    align-content: space-around;
+    justify-content: space-around;
     
 }
 
@@ -73,5 +73,44 @@ body {
 
 #projects p {
     align-content: flex-end;
+}
+
+#announcements {
+    display:flex;
+    flex-direction: column;
+}
+
+.ProjectTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project_info {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(164, 158, 158);
+}
+
+#announcements {
+    display:flex;
+    flex-direction: column;
+    row-gap: 5px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 7px;
+    padding: 20px;    
+}
+
+#announcements hr {
+    width: 90%;
+    border: 1px solid gray;
+    align-self: center;
+}
+
+#AnnouncementsTitle {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 14px;
+
 }
 
